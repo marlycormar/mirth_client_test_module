@@ -1,0 +1,60 @@
+{
+   "name": "mirth client test module",
+   "namespace": "MirthClientTestModule\\ExternalModule",
+   "description": "a module that can be used to test the redcap_mirth_client module.",
+   "authors": [
+     {
+          "name": "Dileep Rajput",
+          "email": "rajputd@ufl.edu",
+          "institution": "University of Florida - CTSI"
+      },
+      {
+          "name": "Philip B. Chase",
+          "email": "pbc@ufl.edu",
+          "institution": "University of Florida - CTSI"
+      },
+      {
+          "name": "Tayrn Stoffs",
+          "email": "tls@ufl.edu",
+          "institution": "University of Florida - CTSI"
+      },
+      {
+          "name": "Marly Cormar",
+          "email": "marlycormar@ufl.edu",
+          "institution": "University of Florida - CTSI"
+      }
+    ],
+    "project-settings" : [
+          {
+            "key": "username",
+            "name": "username",
+            "required": false,
+            "type": "text"
+          },
+          {
+            "key": "password",
+            "name": "password",
+            "required": false,
+            "type": "password"
+          },
+          {
+            "key": "end-point-url",
+            "name": "end-point-url",
+            "required": true,
+            "type": "text"
+          }
+        ],
+      "links": {
+        "project": [
+          {
+            "name": "Test Mirth Client Module",
+            "icon": "brick",
+            "url": "testClient.php"
+          }
+        ]
+      },
+      "compatibility": {
+        "redcap-version-min": "8.0.3",
+        "redcap-version-max": ""
+      }
+}
