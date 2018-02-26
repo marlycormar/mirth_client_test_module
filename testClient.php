@@ -1,5 +1,4 @@
 <?php
-
 require_once \ExternalModules\ExternalModules::getProjectHeaderPath();
 
 $client_module = \ExternalModules\ExternalModules::getModuleInstance('redcap_mirth_client', 'v1.0');

@@ -24,26 +24,6 @@
           "institution": "University of Florida - CTSI"
       }
     ],
-    "project-settings" : [
-          {
-            "key": "username",
-            "name": "username",
-            "required": false,
-            "type": "text"
-          },
-          {
-            "key": "password",
-            "name": "password",
-            "required": false,
-            "type": "password"
-          },
-          {
-            "key": "end-point-url",
-            "name": "end-point-url",
-            "required": true,
-            "type": "text"
-          }
-        ],
       "links": {
         "project": [
           {
