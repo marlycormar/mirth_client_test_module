@@ -27,7 +27,7 @@
       "links": {
         "project": [
           {
-            "name": "Test Mirth Client Module",
+            "name": "Mirth Client Test Module",
             "icon": "brick",
             "url": "testClient.php"
           }

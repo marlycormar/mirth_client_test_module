@@ -7,7 +7,7 @@ a module that can be used to test the [redcap_mirth_client module](https://githu
 - A working Mirth Connect instance to send requests to.
 
 ## Installation
-- Clone this repo into `redcap-root>/moudles/mirth_client_test_module_v1.0`;
+- Clone this repo into `redcap-root>/modules/mirth_client_test_module_v1.0`;
 - Go to **Control Center > Manage External Modules** and enable REDCap Mirth Connect Client
 
 ## Usage
