@@ -3,8 +3,8 @@ require_once \ExternalModules\ExternalModules::getProjectHeaderPath();
 
 $client_module = \ExternalModules\ExternalModules::getModuleInstance('redcap_mirth_client', 'v1.0');
 
-if(!empty($_POST['method']) && !empty($_POST['base-url']) ) {
-    $client = $client_module->getClient($_POST['base-url']);
+if(!empty($_POST['method']) && !empty($_POST['endpoint-id']) ) {
+    $client = $client_module->getClient($_POST['endpoint-id']);
     $client->request($_POST['method'], $_POST['extension'], $_POST['json']);
 }
 
@@ -12,8 +12,8 @@ if(!empty($_POST['method']) && !empty($_POST['base-url']) ) {
 
 <form method="POST" >
   <div class="form-group">
-    <label for="base-url">base url (required)</label>
-    <input type="text" name="base-url" class="form-control" id="method" placeholder="API's base-url, ex. 10.0.2.2:8002/api">
+    <label for="base-url">endpoint id (required)</label>
+    <input type="text" name="endpoint-id" class="form-control" id="method" placeholder="endpoint-id, mirth_connect">
   </div>
   <div class="form-group">
     <label for="method">http method (required)</label>
