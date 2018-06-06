@@ -1,7 +1,7 @@
 <?php
 require_once \ExternalModules\ExternalModules::getProjectHeaderPath();
 
-$client_module = \ExternalModules\ExternalModules::getModuleInstance('redcap_mirth_client', 'v1.0');
+$client_module = \ExternalModules\ExternalModules::getModuleInstance('redcap_mirth_client');
 
 if(!empty($_POST['method']) && !empty($_POST['endpoint-id']) ) {
     $client = $client_module->getClient($_POST['endpoint-id']);
